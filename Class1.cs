@@ -8,7 +8,7 @@ namespace PrimeFactors
 {
     public class Class1
     {
-        public void MyMethod(int num)
+        public static void MyMethod(int num)
         {
             int i=2;
            
