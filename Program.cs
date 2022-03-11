@@ -8,8 +8,9 @@ namespace project2
         {
             Console.WriteLine("enter a number");
             int num = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"these numbers are divisible by {num}");
+            Console.WriteLine($"these are factors of {num}");
             div(num);
+            Console.WriteLine($"these are prime factors of {num}");
             MyMethod(num);
         }
         public static void div(int num)
